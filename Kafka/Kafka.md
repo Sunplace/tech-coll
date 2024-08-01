@@ -19,16 +19,24 @@ https://stackoverflow.com/questions/49063771/what-does-ssl-client-auth-specify
 
 ## keystore and truststore
 https://aiven.io/docs/products/kafka/howto/keystore-truststore
+
 https://www.baeldung.com/spring-boot-kafka-ssl
+
 https://medium.com/@ahosanhabib.974/enabling-ssl-tls-encryption-for-kafka-with-jks-8186ccc82dd1
+
 https://kafka.apache.org/documentation/streams/developer-guide/security.html
+
 https://stackoverflow.com/questions/72904899/how-can-i-use-keystore-jks-and-truststore-jks-files-for-kafka-python-ssl-authent
+
 https://stackoverflow.com/questions/42276672/using-apache-kafka-in-ssl-mode
+
 https://github.com/edenhill/kcat/issues/309
 
 ## Kcat plumber kafka-ui
 https://github.com/provectus/kafka-ui
+
 https://github.com/edenhill/kcat
+
 https://github.com/streamdal/plumber
 
 ## kafka helm chart bitnami
