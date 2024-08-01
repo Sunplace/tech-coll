@@ -39,6 +39,9 @@ https://gist.github.com/marwei/cd40657c481f94ebe273ecc16601674b
 ## ssl.client.auth=required
 https://stackoverflow.com/questions/49063771/what-does-ssl-client-auth-specify
 
+## kafka message retention time
+https://www.baeldung.com/kafka-message-retention
+
 ## keystore and truststore
 https://aiven.io/docs/products/kafka/howto/keystore-truststore
 
