@@ -20,6 +20,16 @@ https://github.com/streamdal/plumber
 
 https://www.kafkatool.com/
 
+## Kafka consumer group
+https://medium.com/javarevisited/kafka-partitions-and-consumer-groups-in-6-mins-9e0e336c6c00
+
+https://codingharbour.com/apache-kafka/what-is-a-consumer-group-in-kafka/
+
+it is mandatory to specify Kafka which consumer would belong to which consumer group. If you do not set the consumer group id in your app, you will get an exception. If you start a consumer to consume from a topic using the Kafka CLI command, then a new random consumer group is created with the name console-consumer-<some_random_number> and the consumer automatically falls under this consumer group.
+
+## Can single consumer read from multiple partitions of a kafka topic?
+https://stackoverflow.com/questions/69502892/can-single-consumer-read-from-multiple-partitions-of-a-kafka-topic
+
 ## kafka python auto.offset.reset
 https://quix.io/blog/kafka-auto-offset-reset-use-cases-and-pitfalls
 
