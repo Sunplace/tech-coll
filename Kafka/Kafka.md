@@ -2,6 +2,7 @@
 
 ## topic, partition, offset
 https://www.geeksforgeeks.org/topics-partitions-and-offsets-in-apache-kafka/
+
 https://stackoverflow.com/questions/57054843/kafka-offset-and-partition-identification
 
 ## kafka python
