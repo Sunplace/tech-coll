@@ -1,0 +1,8 @@
+GOCACHE=/data/go/gocache
+GOMODCACHE=/data/go/gomodcache
+GOPATH=/data/go/gopath
+GO111MODULE=on
+GOBIN=/data/go/gobin
+GOPROXY=https://goproxy.cn,direct
+GOSUMDB=off
+GOPRIVATE="bitbucket.org"

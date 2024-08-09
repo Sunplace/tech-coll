@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+show_channel_urls: true
+custom_channels:
+  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
+conda_build:
+  pkg_format: '2'
