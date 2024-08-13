@@ -64,3 +64,12 @@ https://github.com/bitnami/charts/tree/main/bitnami/kafka/#installing-the-chart
 https://www.geeksforgeeks.org/topics-partitions-and-offsets-in-apache-kafka/
 
 https://stackoverflow.com/questions/57054843/kafka-offset-and-partition-identification
+
+## topic retention time
+https://www.baeldung.com/linux/kafka-view-topic-retention
+
+## log retenion hours, topic retention time
+https://www.baeldung.com/kafka-message-retention
+
+## Difference between delete.retention.ms and retention.ms
+https://forum.confluent.io/t/difference-between-delete-retention-ms-and-retention-ms/10613
