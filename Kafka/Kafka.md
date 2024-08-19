@@ -73,3 +73,6 @@ https://www.baeldung.com/kafka-message-retention
 
 ## Difference between delete.retention.ms and retention.ms
 https://forum.confluent.io/t/difference-between-delete-retention-ms-and-retention-ms/10613
+
+## kafka lag
+https://www.redpanda.com/guides/kafka-performance-kafka-lag
