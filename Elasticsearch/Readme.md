@@ -17,7 +17,7 @@
         2. 网站搜索，垂直搜索，代码搜索。（The nytimes，Github，stack overflow）
         3. 商业数据分析，Business Intelligence and Analytics。（Walmart，Netflix）
         4. 商品搜索。（Ebay）
-        5. 企业级搜索引擎。（Pfize） 
+        5. 企业级搜索引擎。（Pfizer） 
 2. Elasticsearch是如何工作的
     1. ES vs MySql
     2. 文档与字段
