@@ -4,6 +4,8 @@ import ssl
 import logging
 logging.basicConfig(level=logging.DEBUG)
 
+
+## 脚本获取broker、topic 配置信息
 try:
     #topic = "topic-name"
     security_protocol = "SSL"
