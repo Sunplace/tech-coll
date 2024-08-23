@@ -76,3 +76,20 @@ https://forum.confluent.io/t/difference-between-delete-retention-ms-and-retentio
 
 ## kafka lag
 https://www.redpanda.com/guides/kafka-performance-kafka-lag
+
+## kafka storage
+https://strimzi.io/blog/2021/12/17/kafka-segment-retention/
+https://stackoverflow.com/questions/74971714/how-often-does-kafka-check-to-cleanup-the-segment-files
+https://www.baeldung.com/kafka-message-retention
+
+```
+共同控制消息保持的几个参数：（具体作用机制，参考如上文档。）
+server层：
+log.retention.ms log.retention.hours log.retetion.minutes
+topic层：
+retention.ms retention.bytes
+cleanup.policy
+delete.retention.ms
+segment.bytes
+segment.ms
+```
