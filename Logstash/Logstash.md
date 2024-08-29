@@ -7,3 +7,12 @@ https://www.elastic.co/guide/en/logstash/current/event-dependent-configuration.h
 
 ## remove field form nested object during mutate
 https://discuss.elastic.co/t/unable-to-remove-field-form-nested-object-during-mutate/34083
+
+## logstash exporter
+https://github.com/alxrem/prometheus-logstash-exporter
+
+https://github.com/SAP/prometheus-logstash-exporter
+
+https://github.com/dpavlos/logstash-monitoring
+
+https://grafana.com/grafana/dashboards/17918-logstash-monitoring/
