@@ -8,3 +8,8 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-node.htm
 
 ## size shard
 https://www.elastic.co/guide/en/elasticsearch/reference/current/size-your-shards.html
+
+## elasticsearch plugin
+https://github.com/ElasticHQ/elasticsearch-HQ
+
+https://github.com/lmenezes/cerebro
