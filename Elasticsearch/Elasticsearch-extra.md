@@ -13,3 +13,11 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/size-your-shards
 https://github.com/ElasticHQ/elasticsearch-HQ
 
 https://github.com/lmenezes/cerebro
+
+## indice size，total size
+```
+GET logstash-ocp-dev01-audit-2024.09.02/_stats
+GET _cat/indices
+GET _stats/store
+GET logstash*/_stats/store
+```
