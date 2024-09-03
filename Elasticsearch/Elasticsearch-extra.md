@@ -26,3 +26,13 @@ GET logstash*/_stats/store
 https://stackoverflow.com/questions/29417830/elasticsearch-find-disk-space-usage
 
 https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-nodes-stats.html
+
+
+## es cerebro
+https://github.com/lmenezes/cerebro/blob/main/conf/application.conf
+
+https://github.com/lmenezes/cerebro/issues/388
+
+https://github.com/lmenezes/cerebro/issues/473
+
+https://github.com/lmenezes/cerebro/issues/441
