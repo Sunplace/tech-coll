@@ -9,3 +9,5 @@ https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
 
 ## security context
 https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
+
+https://github.com/rook/rook/issues/11755
