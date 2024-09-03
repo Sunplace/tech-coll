@@ -21,3 +21,8 @@ GET _cat/indices
 GET _stats/store
 GET logstash*/_stats/store
 ```
+
+## es disk space usage
+https://stackoverflow.com/questions/29417830/elasticsearch-find-disk-space-usage
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-nodes-stats.html
