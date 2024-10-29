@@ -26,3 +26,38 @@ https://juejin.cn/post/7257922613275443261
 https://github.com/xinzhanguo/hellollm
 
 https://juejin.cn/post/7257922613275443261
+
+
+## llm quantization
+https://medium.com/@techresearchspace/what-is-quantization-in-llm-01ba61968a51
+
+https://www.tensorops.ai/post/what-are-quantized-llms
+
+https://symbl.ai/developers/blog/a-guide-to-quantization-in-llms/
+
+https://www.datacamp.com/tutorial/quantization-for-large-language-models
+
+https://huggingface.co/docs/optimum/en/concept_guides/quantization
+
+https://medium.com/@lmpo/understanding-model-quantization-for-llms-1573490d44ad
+
+https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization
+
+## llm rag
+https://aws.amazon.com/what-is/retrieval-augmented-generation/
+
+https://www.promptingguide.ai/research/rag
+
+https://medium.com/@sahin.samia/what-is-retrieval-augmented-generation-rag-in-llm-and-how-it-works-a8c79e35a172
+
+https://stackoverflow.blog/2023/10/18/retrieval-augmented-generation-keeping-llms-relevant-and-current/
+
+https://www.databricks.com/glossary/retrieval-augmented-generation-rag
+
+https://research.ibm.com/blog/retrieval-augmented-generation-RAG
+
+https://www.hopsworks.ai/dictionary/retrieval-augmented-generation-llm
+
+https://cloud.google.com/use-cases/retrieval-augmented-generation
+
+https://www.k2view.com/what-is-retrieval-augmented-generation
