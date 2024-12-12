@@ -36,3 +36,6 @@ https://github.com/lmenezes/cerebro/issues/388
 https://github.com/lmenezes/cerebro/issues/473
 
 https://github.com/lmenezes/cerebro/issues/441
+
+## es lucene 语法
+https://lucene.apache.org/core/2_9_4/queryparsersyntax.html

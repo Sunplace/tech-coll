@@ -15,6 +15,16 @@ UsePAM no
 PidFile /home/jovan/ssh/sshd.pid
 EOF
 
+
+cat << EOF > sshd_config
+Port 8882
+HostKey /ssh2/ssh_host_rsa_key
+AuthorizedKeysFile  /ssh2/authorized_keys
+ChallengeResponseAuthentication no
+UsePAM no
+PidFile /ssh2/sshd.pid
+EOF
+
 # Update ubuntu base image and install basic tools
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update --yes && \

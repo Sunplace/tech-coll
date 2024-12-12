@@ -16,3 +16,9 @@ https://github.com/SAP/prometheus-logstash-exporter
 https://github.com/dpavlos/logstash-monitoring
 
 https://grafana.com/grafana/dashboards/17918-logstash-monitoring/
+
+## logstash grok
+https://github.com/logstash-plugins/logstash-patterns-core/blob/main/patterns/legacy/grok-patterns
+
+## logstash regex in if condition
+https://discuss.elastic.co/t/regexp-in-conditional/194223/5

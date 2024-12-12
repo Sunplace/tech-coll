@@ -93,3 +93,7 @@ delete.retention.ms
 segment.bytes
 segment.ms
 ```
+
+## how to list kafka producers
+it's impossible
+https://stackoverflow.com/questions/60318519/how-to-list-all-producers-of-a-kafka-cluster
