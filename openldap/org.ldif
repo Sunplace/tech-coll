@@ -1,0 +1,18 @@
+dn: dc=jingxue,dc=com
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: Jingxue Company
+dc: jingxue
+
+dn: cn=admin,dc=jingxue,dc=com
+objectClass: organizationalRole
+cn: admin
+
+dn: ou=People,dc=jingxue,dc=com
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Group,dc=jingxue,dc=com
+objectClass: organizationalUnit
+ou: Group
