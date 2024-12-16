@@ -11,3 +11,8 @@ https://vevesta.substack.com/p/choose-llm-with-optimal-runtime-performance-using
 https://github.com/IdentityPython/pysaml2/tree/master
 
 https://github.com/SAML-Toolkits/python-saml/blob/master/demo-flask/index.py
+
+## to do list
+saml
+
+baai 模型
