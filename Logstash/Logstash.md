@@ -22,3 +22,6 @@ https://github.com/logstash-plugins/logstash-patterns-core/blob/main/patterns/le
 
 ## logstash regex in if condition
 https://discuss.elastic.co/t/regexp-in-conditional/194223/5
+
+## logstash add a day to timestamp
+https://discuss.elastic.co/t/adding-1-day-to-the-date/129168

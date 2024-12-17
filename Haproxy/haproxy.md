@@ -17,3 +17,4 @@ https://stackoverflow.com/questions/52643308/log-haproxy-captured-response-heade
 
 https://www.haproxy.com/documentation/haproxy-configuration-tutorials/core-concepts/fetches/
 
+https://wohugb.gitbooks.io/haproxy/content/capture-request-header.html
