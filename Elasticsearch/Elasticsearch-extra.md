@@ -39,3 +39,10 @@ https://github.com/lmenezes/cerebro/issues/441
 
 ## es lucene 语法
 https://lucene.apache.org/core/2_9_4/queryparsersyntax.html
+
+## es watermark
+https://www.elastic.co/guide/en/elasticsearch/reference/current/fix-watermark-errors.html
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-cluster.html#disk-based-shard-allocation
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/index-modules-blocks.html
