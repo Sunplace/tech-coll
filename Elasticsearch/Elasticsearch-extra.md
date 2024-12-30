@@ -46,3 +46,6 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/fix-watermark-er
 https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-cluster.html#disk-based-shard-allocation
 
 https://www.elastic.co/guide/en/elasticsearch/reference/current/index-modules-blocks.html
+
+## index rollover manually
+https://www.elastic.co/guide/en/elasticsearch/reference/8.17/indices-rollover-index.html
