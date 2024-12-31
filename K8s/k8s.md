@@ -61,3 +61,9 @@ https://stackoverflow.com/questions/44190607/how-do-you-find-the-cluster-service
 kubectl cluster-info dump | grep -m 1 cluster-cidr
 
 kubectl cluster-info dump | grep -m 1 service-cluster-ip-range
+
+## k8s iptables vs ipvs
+https://learncloudnative.com/blog/2023-05-31-kubeproxy-iptables
+
+https://github.com/kubernetes/kubernetes/blob/master/pkg/proxy/ipvs/README.md
+
