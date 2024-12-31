@@ -54,3 +54,10 @@ https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-read
 https://kubernetes.io/docs/reference/kubectl/generated/kubectl_port-forward/
 
 https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/
+
+## k8s get service/pod cidr
+https://stackoverflow.com/questions/44190607/how-do-you-find-the-cluster-service-cidr-of-a-kubernetes-cluster
+
+kubectl cluster-info dump | grep -m 1 cluster-cidr
+
+kubectl cluster-info dump | grep -m 1 service-cluster-ip-range
