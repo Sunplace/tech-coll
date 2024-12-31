@@ -18,3 +18,7 @@ https://github.com/abarto/flask-pysaml2-example
 saml
 
 baai 模型
+
+gcp
+
+kind

@@ -49,3 +49,8 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/index-modules-bl
 
 ## index rollover manually
 https://www.elastic.co/guide/en/elasticsearch/reference/8.17/indices-rollover-index.html
+
+## how to check iptables or ipvs
+https://stackoverflow.com/questions/66746018/how-to-find-which-mode-kube-proxy-is-running-in
+
+https://stackoverflow.com/questions/73092627/kubernetes-kube-proxy-modewhich-one-ipvs-iptables-or-userspace
