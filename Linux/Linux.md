@@ -33,3 +33,21 @@ https://serverfault.com/questions/577437/what-is-the-impact-of-increasing-nofile
 
 ### 软限制与硬限制
 https://access.redhat.com/solutions/384633
+
+### iptables clear all rule
+https://serverfault.com/questions/200635/best-way-to-clear-all-iptables-rules
+
+iptables -P INPUT ACCEPT
+iptables -P FORWARD ACCEPT
+iptables -P OUTPUT ACCEPT
+iptables -t nat -F
+iptables -t mangle -F
+iptables -t filter -F
+iptables -t raw -F
+iptables -t nat -X
+iptables -t raw -X
+iptables -t filter -X
+iptables -t mangle -X
+
+### ipvsadm clear all
+ipvsadm --clear
