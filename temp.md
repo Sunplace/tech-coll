@@ -22,3 +22,7 @@ baai 模型
 gcp
 
 kind
+
+vector
+
+loki
