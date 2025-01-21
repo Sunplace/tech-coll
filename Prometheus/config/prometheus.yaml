@@ -2,6 +2,8 @@ global:
   scrape_interval: 15s
 scrape_configs:
   - job_name: 'prometheus'
+    static_configs:
+      - targets: ['x.x.x.x:8000']
     scrape_interval: 5s
   - job_name: 'node-exporter'
     static_configs:
