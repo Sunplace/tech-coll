@@ -26,3 +26,9 @@ kind
 vector
 
 loki
+
+telegraf + kafka + telegraf + Prometheus
+
+text embedding
+
+rag
