@@ -47,8 +47,6 @@ https://github.com/infiniflow/ragflow
 
 https://github.com/open-webui/open-webui
 
-https://github.com/danny-avila/LibreChat
-
 https://github.com/langgenius/dify
 
 提示词工程
