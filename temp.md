@@ -50,3 +50,5 @@ https://github.com/open-webui/open-webui
 https://github.com/langgenius/dify
 
 提示词工程
+
+微调的原理，作用，适用场景，实现。
