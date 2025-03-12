@@ -56,3 +56,5 @@ https://github.com/langgenius/dify
 dify
 
 fastgpt
+
+open-webui deployment
