@@ -57,4 +57,4 @@ dify
 
 fastgpt
 
-open-webui deployment
+llm Top P, Temperature
