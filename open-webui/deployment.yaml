@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: open-webui
+  namespace: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: open-webui
+  template:
+    metadata:
+      name: open-webui
+      labels:
+        app: open-webui
+    spec:
+      nodeName: worker7l
+      containers:
+      - name: open-webui
+        image: open-webui:main
+        env:
+        - name: "HF_HUB_OFFLINE"
+          value: "1"
+        - name: "OFFLINE_MODE"
+          value: "True"
+        - name: "DATA_DIR"
+          value: "/data"
+        - name: "WEBUI_SECRET_KEY"
+          value: "t0p-s3cr3t"
+        - name: "ENABLE_OLLAMA_API"
+          value: "False"
+        - name: "ENABLE_OPENAI_API"
+          value: "False"
+        volumeMounts:
+        - name: open-webui-data
+          mountPath: /data
+      volumes:
+      - name: open-webui-data
+        persistentVolumeClaim:
+          claimName: open-webui-pvc
