@@ -75,6 +75,22 @@ https://stackoverflow.com/questions/43379415/how-can-i-list-the-taints-on-kubern
 
 ## delete k8s cluster
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#tear-down
+```shell
+kubeadm reset
+iptables -F && iptables -t nat -F && iptables -t mangle -F && iptables -X
+ipvsadm -C
+```
 
 ## clean flanne cni
 https://stackoverflow.com/questions/46276796/kubernetes-cannot-cleanup-flannel
+
+```shell
+rm -rf /var/lib/cni/
+rm -rf /var/lib/kubelet/*
+rm -rf /run/flannel
+rm -rf /etc/cni/
+ifconfig cni0 down
+brctl delbr cni0
+ip link delete cni0
+ip link delete flannel.1
+```
