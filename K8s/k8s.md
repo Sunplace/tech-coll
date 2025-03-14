@@ -67,3 +67,14 @@ https://learncloudnative.com/blog/2023-05-31-kubeproxy-iptables
 
 https://github.com/kubernetes/kubernetes/blob/master/pkg/proxy/ipvs/README.md
 
+## allow scheduling of pods to k8s master
+https://stackoverflow.com/questions/43147941/allow-scheduling-of-pods-on-kubernetes-master
+
+## list taint of k8s node
+https://stackoverflow.com/questions/43379415/how-can-i-list-the-taints-on-kubernetes-nodes
+
+## delete k8s cluster
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#tear-down
+
+## clean flanne cni
+https://stackoverflow.com/questions/46276796/kubernetes-cannot-cleanup-flannel
