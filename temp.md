@@ -58,3 +58,11 @@ dify
 fastgpt
 
 llm Top P, Temperature
+
+https://cloud.tencent.com/document/product/457/116720
+https://cloud.tencent.com/document/product/457/116254
+https://docs.sglang.ai/references/multi_node.html
+https://github.com/sgl-project/sglang/issues/748
+https://raw.githubusercontent.com/kubernetes-sigs/lws/refs/heads/main/docs/examples/vllm/build/ray_init.sh
+https://github.com/vllm-project/vllm/issues/13521
+https://github.com/vllm-project/vllm/blob/main/examples/online_serving/run_cluster.sh
