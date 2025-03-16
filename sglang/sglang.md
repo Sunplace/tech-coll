@@ -12,3 +12,9 @@ python3 -m sglang.check_env
 python3 -m sglang.launch_server --model-path /root/hf_model/Qwen/Qwen2-72B-Instruct-GPTQ-Int4 --dtype half --trust-remote-code --tp-size 4 --disable-flashinfer
 
 >https://docs.sglang.ai/backend/send_request.html
+
+## multiple node
+https://docs.sglang.ai/references/multi_node.html
+
+## sglang sm57
+https://github.com/sgl-project/sglang/issues/748
