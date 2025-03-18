@@ -61,3 +61,14 @@ https://www.hopsworks.ai/dictionary/retrieval-augmented-generation-llm
 https://cloud.google.com/use-cases/retrieval-augmented-generation
 
 https://www.k2view.com/what-is-retrieval-augmented-generation
+
+## llm temperature，top-p，top-k
+https://learnprompting.org/docs/intermediate/configuration_hyperparameters
+
+https://www.vellum.ai/llm-parameters/top-p
+
+https://www.hopsworks.ai/dictionary/llm-temperature
+
+https://medium.com/@1511425435311/understanding-openais-temperature-and-top-p-parameters-in-language-models-d2066504684f
+
+https://www.phdata.io/blog/how-to-tune-llm-parameters-for-top-performance-understanding-temperature-top-k-and-top-p/
