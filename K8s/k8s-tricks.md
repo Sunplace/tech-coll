@@ -19,3 +19,5 @@ https://stackoverflow.com/questions/44190607/how-do-you-find-the-cluster-service
 kubectl cluster-info dump | grep -m 1 cluster-cidr
 
 kubectl cluster-info dump | grep -m 1 service-cluster-ip-range
+
+echo '{"apiVersion":"v1","kind":"Service","metadata":{"name":"foo"},"spec":{"clusterIP":"1.1.1.1","ports":[{"port":443}]}}' | kubectl apply -f - 2>&1 | sed 's/.*valid IPs is //'
