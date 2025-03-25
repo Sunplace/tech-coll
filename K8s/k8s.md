@@ -94,3 +94,11 @@ brctl delbr cni0
 ip link delete cni0
 ip link delete flannel.1
 ```
+
+## kubectl create docker registry config
+```shell
+kubectl create secret docker-registry quay-secret \
+  --docker-server=quay.globalapp.mindray.com \
+  --docker-username='xxx' \
+  --docker-password='xxx' -n sunyangjian
+```
