@@ -51,3 +51,8 @@ iptables -t mangle -X
 
 ### ipvsadm clear all
 ipvsadm --clear
+
+## use nc as simple http server
+https://stackoverflow.com/questions/16640054/minimal-web-server-using-netcat
+
+while true ; do nc -l -p 1500 -c 'echo -e "HTTP/1.1 200 OK\n\n $(date)"'; done
