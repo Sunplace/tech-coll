@@ -56,3 +56,10 @@ ipvsadm --clear
 https://stackoverflow.com/questions/16640054/minimal-web-server-using-netcat
 
 while true ; do nc -l -p 1500 -c 'echo -e "HTTP/1.1 200 OK\n\n $(date)"'; done
+
+## /dev/shm
+https://www.cyberciti.biz/tips/what-is-devshm-and-its-practical-usage.html
+
+https://www.namehero.com/blog/what-is-dev-shm-and-why-is-it-so-useful/
+
+https://superuser.com/questions/45342/when-should-i-use-dev-shm-and-when-should-i-use-tmp
