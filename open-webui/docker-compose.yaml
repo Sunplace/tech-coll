@@ -1,0 +1,15 @@
+services:
+
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    environment:
+      HF_HUB_OFFLINE: 1
+      OFFLINE_MODE: True
+      DATA_DIR: /data
+      WEBUI_SECRET_KEY: t0p-s3cr3t
+      ENABLE_OLLAMA_API: False
+      ENABLE_OPENAI_API: False
+    ports:
+      - 3000:8080
+    volumes:
+      - ./data:/data
