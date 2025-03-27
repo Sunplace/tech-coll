@@ -102,3 +102,10 @@ kubectl create secret docker-registry quay-secret \
   --docker-username='xxx' \
   --docker-password='xxx' -n sunyangjian
 ```
+
+## k8s hostip, hostport
+https://stackoverflow.com/questions/63691946/kubernetes-what-is-hostport-and-hostip-used-for
+
+https://kubernetes.io/docs/concepts/configuration/overview/
+
+https://www.fairwinds.com/blog/tutorial-how-to-check-host-port-configuration
