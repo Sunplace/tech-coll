@@ -62,6 +62,14 @@ llm Top P, Temperature
 langchain langgraph 接口访问 llm，embedding，rerank
 大模型 benchmark
 
+vllm 分布式
+xinference 分布式
+微调的方法，作用与意义
+分布式推理 是否必须nccl或者gool gpu直通
+模型针对相同问题不同的回答
+
+multiple process share single gpu
+
 https://cloud.tencent.com/document/product/457/116720
 https://cloud.tencent.com/document/product/457/116254
 https://docs.sglang.ai/references/multi_node.html
