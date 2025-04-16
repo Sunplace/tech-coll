@@ -97,3 +97,12 @@ segment.ms
 ## how to list kafka producers
 it's impossible
 https://stackoverflow.com/questions/60318519/how-to-list-all-producers-of-a-kafka-cluster
+
+## kafka docker compose deployment
+https://www.confluent.io/blog/how-to-use-kafka-docker-composer/
+
+https://github.com/conduktor/kafka-stack-docker-compose/blob/master/zk-single-kafka-single.yml
+
+https://github.com/bitnami/containers/blob/main/bitnami/kafka/docker-compose.yml
+
+https://developer.confluent.io/confluent-tutorials/kafka-on-docker/
