@@ -72,3 +72,8 @@ https://www.hopsworks.ai/dictionary/llm-temperature
 https://medium.com/@1511425435311/understanding-openais-temperature-and-top-p-parameters-in-language-models-d2066504684f
 
 https://www.phdata.io/blog/how-to-tune-llm-parameters-for-top-performance-understanding-temperature-top-k-and-top-p/
+
+## llm chat and completion
+https://docs.aimlapi.com/capabilities/completion-or-chat-models
+
+https://vitalflux.com/completion-model-vs-chat-model-python-examples/
