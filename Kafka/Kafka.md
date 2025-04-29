@@ -106,3 +106,8 @@ https://github.com/conduktor/kafka-stack-docker-compose/blob/master/zk-single-ka
 https://github.com/bitnami/containers/blob/main/bitnami/kafka/docker-compose.yml
 
 https://developer.confluent.io/confluent-tutorials/kafka-on-docker/
+
+## kafka operator
+https://strimzi.io/docs/operators/latest/deploying#kafka-cluster-str
+
+https://strimzi.io/quickstarts/
