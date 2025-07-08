@@ -111,3 +111,6 @@ https://developer.confluent.io/confluent-tutorials/kafka-on-docker/
 https://strimzi.io/docs/operators/latest/deploying#kafka-cluster-str
 
 https://strimzi.io/quickstarts/
+
+## kafka browser
+offset explorer
