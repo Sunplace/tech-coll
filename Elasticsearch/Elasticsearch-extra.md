@@ -54,3 +54,8 @@ https://www.elastic.co/guide/en/elasticsearch/reference/8.17/indices-rollover-in
 https://stackoverflow.com/questions/66746018/how-to-find-which-mode-kube-proxy-is-running-in
 
 https://stackoverflow.com/questions/73092627/kubernetes-kube-proxy-modewhich-one-ipvs-iptables-or-userspace
+
+## 插件离线安装
+```shell
+elasticsearch-plugin install  file:///tmp/elasticsearch-analysis-ik-8.5.2.zip
+```
