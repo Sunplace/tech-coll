@@ -19,3 +19,6 @@ SELECT table_schema "DB Name",
 FROM information_schema.tables
 GROUP BY table_schema;
 ```
+
+## show slave status
+SHOW SLAVE STATUS\G
