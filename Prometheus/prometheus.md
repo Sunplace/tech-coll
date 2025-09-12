@@ -15,3 +15,8 @@ https://stackoverflow.com/questions/70950899/get-datapoint-count-of-a-prometheus
 https://stackoverflow.com/questions/69738250/how-to-calculate-current-prometheus-tsdb-storage-size-from-tsdb-status-url
 
 **prometheus_tsdb_storage_blocks_bytes / 1024 / 1024**
+
+## prometheus reload
+https://prometheus.io/docs/guides/basic-auth/
+
+https://stackoverflow.com/questions/78379984/how-to-reload-prometheus-config-without-restarting
