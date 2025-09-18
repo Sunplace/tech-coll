@@ -59,3 +59,6 @@ https://stackoverflow.com/questions/73092627/kubernetes-kube-proxy-modewhich-one
 ```shell
 elasticsearch-plugin install  file:///tmp/elasticsearch-analysis-ik-8.5.2.zip
 ```
+
+## Bootstrapping a cluster
+https://www.elastic.co/docs/deploy-manage/distributed-architecture/discovery-cluster-formation/modules-discovery-bootstrap-cluster
