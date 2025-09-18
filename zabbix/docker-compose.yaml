@@ -1,0 +1,120 @@
+networks:
+  zabbix-monitoring:
+    driver: bridge
+
+volumes:
+  mariadb_data:
+
+services:
+  mariadb-server:
+    image: mariadb:10.6
+    container_name: mariadb-server
+    ports:
+      - '3306:3306'
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=zabbix
+      - MYSQL_USER=zabbix
+      - MYSQL_PASSWORD=password
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    healthcheck:
+      test: mysqladmin ping -h 127.0.0.1 -u root --password=password
+      interval: 5s
+      retries: 5
+    networks:
+      - zabbix-monitoring
+
+  zabbix-server:
+    container_name: zabbix-server
+      #image: zabbix/zabbix-server-mysql:ubuntu-6.0.7
+      #image: zabbix/zabbix-server-mysql:ubuntu-6.0.7-ipmi
+    image: zabbix/zabbix-server-mysql:6.0-ubuntu-latest
+    networks:
+      - zabbix-monitoring
+    links:
+      - mariadb-server
+    ports:
+      - '10051:10051'
+    volumes:
+      - './zabbix/alertscripts:/usr/lib/zabbix/alertscripts'
+    environment:
+      - DB_SERVER_HOST=mariadb-server
+      - MYSQL_DATABASE=zabbix
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=password
+      - ZBX_STARTPOLLERS=1
+      - ZBX_STARTALERTERS=1
+      - ZBX_STARTJAVAPOLLERS=1
+      - ZBX_STARTVMWARECOLLECTORS=1
+      - ZBX_STARTIPMIPOLLERS=1
+      - ZBX_STARTTRAPPERS=1
+      - ZBX_JAVAGATEWAY_ENABLE=true
+      - ZBX_STARTHISTORYPOLLERS=1
+      - ZBX_STARTPREPROCESSORS=1
+      - ZBX_STARTLLDPROCESSORS=1
+      - ZBX_ENABLE_SNMP_TRAPS=true
+      - ZBX_STARTREPORTWRITERS=1
+      - ZBX_STARTPOLLERSUNREACHABLE=1
+      - ZBX_STARTDBSYNCERS=1
+    depends_on:
+      - mariadb-server
+
+  zabbix-frontend:
+    container_name: zabbix-frontend
+    image: zabbix/zabbix-web-apache-mysql:ubuntu-6.0.7
+    networks:
+      - zabbix-monitoring
+    links:
+      - mariadb-server
+    ports:
+      - '80:8080'
+      - '443:8443'
+    environment:
+      - DB_SERVER_HOST=mariadb-server
+      - MYSQL_DATABASE=zabbix
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=password
+      - ZBX_SERVER_HOST=zabbix-server
+      - PHP_TZ=Asia/Shanghai
+      - ZBX_SERVER_NAME=MR Corperation
+    depends_on:
+      - mariadb-server
+   
+        #  grafana:
+        #    container_name: grafana
+        #    image: grafana/grafana:10.2.2-ubuntu
+        #    networks:
+        #      - zabbix-monitoring
+        #    links:
+        #      - mariadb-server
+        #      - zabbix-server
+        #    ports:
+        #      - '3000:3000'
+        #    environment: 
+        #      - GF_INSTALL_PLUGINS=alexanderzobnin-zabbix-app
+        #    depends_on:
+        #      - mariadb-server
+        #      - zabbix-server
+  
+  zabbix-agent:
+    container_name: zabbix-agent
+    image: zabbix/zabbix-agent2:ubuntu-6.0.7
+    user: root
+    networks:
+      - zabbix-monitoring
+    links:
+      - zabbix-server
+    privileged: true
+    volumes:
+      - /var/run:/var/run
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /dev:/host/dev:ro
+      - /etc:/host/etc:ro
+      - /var/run/docker.sock:/host/var/run/docker.sock
+    ports:
+      - '10050:10050'
+    environment:
+      - ZBX_HOSTNAME=Zabbix server
+      - ZBX_SERVER_HOST=zabbix-server

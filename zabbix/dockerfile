@@ -1,0 +1,4 @@
+FROM zabbix/zabbix-server-mysql:ubuntu-6.0.7
+USER 0
+RUN apt update -y && apt install -y ipmitool && apt clean all
+USER 1997
