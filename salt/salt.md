@@ -22,3 +22,6 @@ cmd-test:
     - name: uname -a
 
 salt main-vm-ubuntu-olivia state.sls uname
+
+## salt 端口
+https://docs.saltproject.io/salt/install-guide/en/latest/topics/before-you-start/check-network-ports.html
