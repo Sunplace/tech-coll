@@ -109,3 +109,8 @@ https://stackoverflow.com/questions/63691946/kubernetes-what-is-hostport-and-hos
 https://kubernetes.io/docs/concepts/configuration/overview/
 
 https://www.fairwinds.com/blog/tutorial-how-to-check-host-port-configuration
+
+## 证书超期检查
+```shell
+kubeadm certs check-expiration
+```
