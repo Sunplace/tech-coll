@@ -114,3 +114,8 @@ https://www.fairwinds.com/blog/tutorial-how-to-check-host-port-configuration
 ```shell
 kubeadm certs check-expiration
 ```
+
+## How to Make Kubectl Exec Run Against Multiple Pods
+```shell
+kubectl get pods -o name | xargs -I{} kubectl exec {} -- <command goes here>
+```
