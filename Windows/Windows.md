@@ -7,3 +7,6 @@ https://serverfault.com/questions/929081/how-can-i-enable-packet-forwarding-on-w
 https://superuser.com/questions/914782/how-do-you-list-all-processes-on-the-command-line-in-windows
 
 get-process
+
+## 查看监听连接
+netstat -noq -p tcp | findstr /i listen
