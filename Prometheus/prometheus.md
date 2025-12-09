@@ -20,3 +20,14 @@ https://stackoverflow.com/questions/69738250/how-to-calculate-current-prometheus
 https://prometheus.io/docs/guides/basic-auth/
 
 https://stackoverflow.com/questions/78379984/how-to-reload-prometheus-config-without-restarting
+
+## prometheus alert rule special time
+https://stackoverflow.com/questions/69717672/time-based-alerts-in-prometheus-alertmanager
+
+win_script_backups_status{endpoint=~".*", name="BackupLog_succeeded"} == 0  and on() ((hour() == 4 and minute() < 30) or (hour() == 16 and minute() < 30))
+
+## prometheus 无数据
+https://signoz.io/guides/time-series-from-prometheus-source-how-to-set-nulls-as-zero/
+
+## How to find out the number of time series stored in Prometheus LevelDB
+https://serverfault.com/questions/817424/how-to-find-out-the-number-of-time-series-stored-in-prometheus-leveldb
