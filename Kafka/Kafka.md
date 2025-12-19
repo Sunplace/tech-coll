@@ -114,3 +114,23 @@ https://strimzi.io/quickstarts/
 
 ## kafka browser
 offset explorer
+
+## kafka 命令行操作
+```shell
+# 获取topic
+./bin/kafka-topics.sh --bootstrap-server 10.1.1.145:9092 --list
+
+./bin/kafka-topics.sh --bootstrap-server 10.1.11.18:9092 --list
+
+# 查看topic offset 详情
+bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list 10.1.1.145:9092 --topic omdb_endpoint
+
+# create topic
+bin/kafka-topics.sh --create --topic omdb_endpoint_syj_test --bootstrap-server 10.1.1.145:9092
+
+# produce message
+bin/kafka-console-producer.sh --topic omdb_endpoint_syj_test --bootstrap-server 10.1.1.145:9092
+
+# consume message
+bin/kafka-console-consumer.sh --bootstrap-server 10.1.1.145:9092 --topic omdb_endpoint --offset 52436266 --partition 5
+```
