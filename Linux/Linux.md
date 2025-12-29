@@ -63,3 +63,12 @@ https://www.cyberciti.biz/tips/what-is-devshm-and-its-practical-usage.html
 https://www.namehero.com/blog/what-is-dev-shm-and-why-is-it-so-useful/
 
 https://superuser.com/questions/45342/when-should-i-use-dev-shm-and-when-should-i-use-tmp
+
+## linux free 内存区域 计算方式，仅供参考
+https://unix.stackexchange.com/questions/263764/what-is-difference-between-cached-memory-and-used-memory
+
+https://serverfault.com/questions/85470/meaning-of-the-buffers-cache-line-in-the-output-of-free
+https://www.baeldung.com/linux/free-available-cached-memory
+
+total = used + free + buff/cache
+available = buff|cache + free - shared
