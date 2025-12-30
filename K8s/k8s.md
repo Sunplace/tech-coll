@@ -119,3 +119,10 @@ kubeadm certs check-expiration
 ```shell
 kubectl get pods -o name | xargs -I{} kubectl exec {} -- <command goes here>
 ```
+
+## k8s cgroup driver
+https://github.com/kubernetes/enhancements/issues/4033
+kubectl get --raw /api/v1/nodes/testnode/proxy/configz | jq '.kubeletconfig.cgroupDriver'
+
+## k8s proxy mode
+kubectl logs -n kube-system kube-proxy-k8h2c | grep -i proxier
